@@ -1,0 +1,24 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "children": [
+        {
+            "elmType": "span",
+            "style": {
+                "padding-right": "6px",
+                "text-decoration": "none"
+            },
+            "attributes": {
+                "iconName": "Link"
+            }
+        },
+        {
+            "elmType": "a",
+            "txtContent": "@currentField",
+            "attributes": {
+                "target": "_blank",
+                "href": "=[$URL]"
+            }
+        }
+    ]
+}
